@@ -1,0 +1,23 @@
+{
+  "name": "DATA732-mass-shooting",
+  "version": "1.0.0",
+  "description": "data visualisation of mass shootings in usa",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Elsa Ruelle et Anaïs Ferrera",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "d3": "^5.15.0",
+    "express": "^4.17.1"
+  }
+}

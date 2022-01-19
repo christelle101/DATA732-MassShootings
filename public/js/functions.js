@@ -1,4 +1,3 @@
-// For the map
 /**
  * 
  * @param {*} value number of killed

@@ -17,8 +17,6 @@ var div = d3.select("body")
 		.style("opacity", 0)
 
 
-// APPEND INFORMATIONS FIELDS IN THE TOOLTIP
-
 // CONTEXT
 let tootipcontext = div.append("div")
 	.attr("id", "context");
@@ -28,8 +26,6 @@ tootipcontext.append("div")
 
 tootipcontext.append("div")
    .attr("id", "date");
-
-
 
 // DRAWING LINE
 let tooltipLine = div.append("hr")
@@ -45,9 +41,6 @@ tooltipVictims.append("div")
 tooltipVictims.append("div")
    .attr("id", "injured");
 
-// SUMMARY
-/*div.append("div")
-   .attr("id", "description");*/
 
 // D3 Projection
 var projection = d3.geo.albersUsa()
@@ -55,7 +48,6 @@ var projection = d3.geo.albersUsa()
 	.scale([1000]);          
 
 // Define path generator
-// path generator --> converts GeoJSON to SVG5 paths
 var path = d3.geo.path()               
 	.projection(projection);  
 
