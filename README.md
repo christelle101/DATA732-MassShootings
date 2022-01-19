@@ -1,8 +1,15 @@
-# Mass shooting USA 
-D3js data visualisation of mass shootings in USA
+# Mass shootings in the US
 
-To see the data visualisation : 
-- Clone the git 
-- Go to the folder and execute the command : npm install
-- To launch the server : node app.js
-- To see the visualisation : go to localhost:3000
+This project aims to provide a a global visualization of mass shootings in the United States, along with a few other analysis charts.
+
+### How to use 
+- Clone this Git repo
+- Go to the cloned repo folder
+- run the following command :
+'''
+npm install
+'''
+- run the app server 
+'''
+node app.js
+'''
